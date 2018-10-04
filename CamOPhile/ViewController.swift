@@ -21,6 +21,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    @IBAction func takeAPicture(_ sender: Any) {
+    }
+    
+    @IBAction func pickFromAlbum(_ sender: Any) {
+    }
 }
 
