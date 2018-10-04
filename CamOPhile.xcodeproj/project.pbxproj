@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8404B343216680E900452A65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8404B342216680E900452A65 /* AppDelegate.swift */; };
+		8404B345216680E900452A65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8404B344216680E900452A65 /* ViewController.swift */; };
+		8404B348216680E900452A65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8404B346216680E900452A65 /* Main.storyboard */; };
+		8404B34A216680EC00452A65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8404B349216680EC00452A65 /* Assets.xcassets */; };
+		8404B34D216680EC00452A65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8404B34B216680EC00452A65 /* LaunchScreen.storyboard */; };
+		8404B358216680EC00452A65 /* CamOPhileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8404B357216680EC00452A65 /* CamOPhileTests.swift */; };
+		8404B363216680EC00452A65 /* CamOPhileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8404B362216680EC00452A65 /* CamOPhileUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8404B354216680EC00452A65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8404B337216680E900452A65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8404B33E216680E900452A65;
+			remoteInfo = CamOPhile;
+		};
+		8404B35F216680EC00452A65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8404B337216680E900452A65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8404B33E216680E900452A65;
+			remoteInfo = CamOPhile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8404B33F216680E900452A65 /* CamOPhile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CamOPhile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8404B342216680E900452A65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8404B344216680E900452A65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8404B347216680E900452A65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8404B349216680EC00452A65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8404B34C216680EC00452A65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8404B34E216680EC00452A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8404B353216680EC00452A65 /* CamOPhileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamOPhileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8404B357216680EC00452A65 /* CamOPhileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamOPhileTests.swift; sourceTree = "<group>"; };
+		8404B359216680EC00452A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8404B35E216680EC00452A65 /* CamOPhileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamOPhileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8404B362216680EC00452A65 /* CamOPhileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamOPhileUITests.swift; sourceTree = "<group>"; };
+		8404B364216680EC00452A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8404B33C216680E900452A65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8404B350216680EC00452A65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8404B35B216680EC00452A65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8404B336216680E900452A65 = {
+			isa = PBXGroup;
+			children = (
+				8404B341216680E900452A65 /* CamOPhile */,
+				8404B356216680EC00452A65 /* CamOPhileTests */,
+				8404B361216680EC00452A65 /* CamOPhileUITests */,
+				8404B340216680E900452A65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8404B340216680E900452A65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8404B33F216680E900452A65 /* CamOPhile.app */,
+				8404B353216680EC00452A65 /* CamOPhileTests.xctest */,
+				8404B35E216680EC00452A65 /* CamOPhileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8404B341216680E900452A65 /* CamOPhile */ = {
+			isa = PBXGroup;
+			children = (
+				8404B342216680E900452A65 /* AppDelegate.swift */,
+				8404B344216680E900452A65 /* ViewController.swift */,
+				8404B346216680E900452A65 /* Main.storyboard */,
+				8404B349216680EC00452A65 /* Assets.xcassets */,
+				8404B34B216680EC00452A65 /* LaunchScreen.storyboard */,
+				8404B34E216680EC00452A65 /* Info.plist */,
+			);
+			path = CamOPhile;
+			sourceTree = "<group>";
+		};
+		8404B356216680EC00452A65 /* CamOPhileTests */ = {
+			isa = PBXGroup;
+			children = (
+				8404B357216680EC00452A65 /* CamOPhileTests.swift */,
+				8404B359216680EC00452A65 /* Info.plist */,
+			);
+			path = CamOPhileTests;
+			sourceTree = "<group>";
+		};
+		8404B361216680EC00452A65 /* CamOPhileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8404B362216680EC00452A65 /* CamOPhileUITests.swift */,
+				8404B364216680EC00452A65 /* Info.plist */,
+			);
+			path = CamOPhileUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8404B33E216680E900452A65 /* CamOPhile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8404B367216680EC00452A65 /* Build configuration list for PBXNativeTarget "CamOPhile" */;
+			buildPhases = (
+				8404B33B216680E900452A65 /* Sources */,
+				8404B33C216680E900452A65 /* Frameworks */,
+				8404B33D216680E900452A65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CamOPhile;
+			productName = CamOPhile;
+			productReference = 8404B33F216680E900452A65 /* CamOPhile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8404B352216680EC00452A65 /* CamOPhileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8404B36A216680EC00452A65 /* Build configuration list for PBXNativeTarget "CamOPhileTests" */;
+			buildPhases = (
+				8404B34F216680EC00452A65 /* Sources */,
+				8404B350216680EC00452A65 /* Frameworks */,
+				8404B351216680EC00452A65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8404B355216680EC00452A65 /* PBXTargetDependency */,
+			);
+			name = CamOPhileTests;
+			productName = CamOPhileTests;
+			productReference = 8404B353216680EC00452A65 /* CamOPhileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8404B35D216680EC00452A65 /* CamOPhileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8404B36D216680EC00452A65 /* Build configuration list for PBXNativeTarget "CamOPhileUITests" */;
+			buildPhases = (
+				8404B35A216680EC00452A65 /* Sources */,
+				8404B35B216680EC00452A65 /* Frameworks */,
+				8404B35C216680EC00452A65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8404B360216680EC00452A65 /* PBXTargetDependency */,
+			);
+			name = CamOPhileUITests;
+			productName = CamOPhileUITests;
+			productReference = 8404B35E216680EC00452A65 /* CamOPhileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8404B337216680E900452A65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Gustav Bang";
+				TargetAttributes = {
+					8404B33E216680E900452A65 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					8404B352216680EC00452A65 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 8404B33E216680E900452A65;
+					};
+					8404B35D216680EC00452A65 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 8404B33E216680E900452A65;
+					};
+				};
+			};
+			buildConfigurationList = 8404B33A216680E900452A65 /* Build configuration list for PBXProject "CamOPhile" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8404B336216680E900452A65;
+			productRefGroup = 8404B340216680E900452A65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8404B33E216680E900452A65 /* CamOPhile */,
+				8404B352216680EC00452A65 /* CamOPhileTests */,
+				8404B35D216680EC00452A65 /* CamOPhileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8404B33D216680E900452A65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8404B34D216680EC00452A65 /* LaunchScreen.storyboard in Resources */,
+				8404B34A216680EC00452A65 /* Assets.xcassets in Resources */,
+				8404B348216680E900452A65 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8404B351216680EC00452A65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8404B35C216680EC00452A65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8404B33B216680E900452A65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8404B345216680E900452A65 /* ViewController.swift in Sources */,
+				8404B343216680E900452A65 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8404B34F216680EC00452A65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8404B358216680EC00452A65 /* CamOPhileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8404B35A216680EC00452A65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8404B363216680EC00452A65 /* CamOPhileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8404B355216680EC00452A65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8404B33E216680E900452A65 /* CamOPhile */;
+			targetProxy = 8404B354216680EC00452A65 /* PBXContainerItemProxy */;
+		};
+		8404B360216680EC00452A65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8404B33E216680E900452A65 /* CamOPhile */;
+			targetProxy = 8404B35F216680EC00452A65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8404B346216680E900452A65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8404B347216680E900452A65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8404B34B216680EC00452A65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8404B34C216680EC00452A65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8404B365216680EC00452A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8404B366216680EC00452A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8404B368216680EC00452A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CamOPhile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bang.CamOPhile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8404B369216680EC00452A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CamOPhile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bang.CamOPhile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8404B36B216680EC00452A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CamOPhileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bang.CamOPhileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CamOPhile.app/CamOPhile";
+			};
+			name = Debug;
+		};
+		8404B36C216680EC00452A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CamOPhileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bang.CamOPhileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CamOPhile.app/CamOPhile";
+			};
+			name = Release;
+		};
+		8404B36E216680EC00452A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CamOPhileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bang.CamOPhileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CamOPhile;
+			};
+			name = Debug;
+		};
+		8404B36F216680EC00452A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CamOPhileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bang.CamOPhileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CamOPhile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8404B33A216680E900452A65 /* Build configuration list for PBXProject "CamOPhile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8404B365216680EC00452A65 /* Debug */,
+				8404B366216680EC00452A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8404B367216680EC00452A65 /* Build configuration list for PBXNativeTarget "CamOPhile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8404B368216680EC00452A65 /* Debug */,
+				8404B369216680EC00452A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8404B36A216680EC00452A65 /* Build configuration list for PBXNativeTarget "CamOPhileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8404B36B216680EC00452A65 /* Debug */,
+				8404B36C216680EC00452A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8404B36D216680EC00452A65 /* Build configuration list for PBXNativeTarget "CamOPhileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8404B36E216680EC00452A65 /* Debug */,
+				8404B36F216680EC00452A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8404B337216680E900452A65 /* Project object */;
+}
