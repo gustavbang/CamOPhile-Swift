@@ -10,7 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var takePic: UIButton!
+    @IBOutlet weak var pickFromAlbum: UIButton!
+    
+    
     override func viewDidLoad() {
+        takePic.layer.cornerRadius = 10
+        pickFromAlbum.layer.cornerRadius = 10
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }

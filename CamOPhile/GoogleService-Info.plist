@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>228540743691-7kbufhm4cg8ijhrh4i9nj4psqt7eb1ks.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.228540743691-7kbufhm4cg8ijhrh4i9nj4psqt7eb1ks</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB7zNsfuXCz0Vb2ylovumPtX2u8XY8iqMU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>228540743691</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.bang.CamOPhile</string>
+	<key>PROJECT_ID</key>
+	<string>camophile-12312</string>
+	<key>STORAGE_BUCKET</key>
+	<string>camophile-12312.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:228540743691:ios:c20388b2480685cf</string>
+	<key>DATABASE_URL</key>
+	<string>https://camophile-12312.firebaseio.com</string>
+</dict>
+</plist>

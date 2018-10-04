@@ -14,6 +14,10 @@
 		8404B34D216680EC00452A65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8404B34B216680EC00452A65 /* LaunchScreen.storyboard */; };
 		8404B358216680EC00452A65 /* CamOPhileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8404B357216680EC00452A65 /* CamOPhileTests.swift */; };
 		8404B363216680EC00452A65 /* CamOPhileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8404B362216680EC00452A65 /* CamOPhileUITests.swift */; };
+		8404B3752166898600452A65 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8404B3742166898600452A65 /* GoogleService-Info.plist */; };
+		91F8B3AF48E9D6E8521F1BE3 /* Pods_CamOPhile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03ABC3DFFB466834B7DEEE07 /* Pods_CamOPhile.framework */; };
+		BE65033B971F40AFA13F7288 /* Pods_CamOPhileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA187F8AE23AAA4B5DD0A54 /* Pods_CamOPhileUITests.framework */; };
+		D520587F0DECEE1310F9D255 /* Pods_CamOPhileTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D855009DFE9937C9D87B821F /* Pods_CamOPhileTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03ABC3DFFB466834B7DEEE07 /* Pods_CamOPhile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CamOPhile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB87871FE47E07A42DD9781 /* Pods-CamOPhileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CamOPhileTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CamOPhileTests/Pods-CamOPhileTests.release.xcconfig"; sourceTree = "<group>"; };
+		6927B7E860FFCE94414DF4C8 /* Pods-CamOPhileUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CamOPhileUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CamOPhileUITests/Pods-CamOPhileUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8404B33F216680E900452A65 /* CamOPhile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CamOPhile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8404B342216680E900452A65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8404B344216680E900452A65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,13 @@
 		8404B35E216680EC00452A65 /* CamOPhileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamOPhileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8404B362216680EC00452A65 /* CamOPhileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamOPhileUITests.swift; sourceTree = "<group>"; };
 		8404B364216680EC00452A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8404B3742166898600452A65 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		953FE73B32205649B7ED2668 /* Pods-CamOPhileUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CamOPhileUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CamOPhileUITests/Pods-CamOPhileUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB07C3B414012509F0A1CE35 /* Pods-CamOPhile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CamOPhile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CamOPhile/Pods-CamOPhile.debug.xcconfig"; sourceTree = "<group>"; };
+		D855009DFE9937C9D87B821F /* Pods_CamOPhileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CamOPhileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA187F8AE23AAA4B5DD0A54 /* Pods_CamOPhileUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CamOPhileUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E075B8888B0AB9BD0A75DF40 /* Pods-CamOPhileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CamOPhileTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CamOPhileTests/Pods-CamOPhileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1C34EFDE7F09FD9E224AA2D /* Pods-CamOPhile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CamOPhile.release.xcconfig"; path = "Pods/Target Support Files/Pods-CamOPhile/Pods-CamOPhile.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91F8B3AF48E9D6E8521F1BE3 /* Pods_CamOPhile.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D520587F0DECEE1310F9D255 /* Pods_CamOPhileTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE65033B971F40AFA13F7288 /* Pods_CamOPhileUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				8404B356216680EC00452A65 /* CamOPhileTests */,
 				8404B361216680EC00452A65 /* CamOPhileUITests */,
 				8404B340216680E900452A65 /* Products */,
+				9BFBDE225A92AEA34FAEC3CB /* Pods */,
+				A88D0AF2063D16342D053C88 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +122,7 @@
 				8404B349216680EC00452A65 /* Assets.xcassets */,
 				8404B34B216680EC00452A65 /* LaunchScreen.storyboard */,
 				8404B34E216680EC00452A65 /* Info.plist */,
+				8404B3742166898600452A65 /* GoogleService-Info.plist */,
 			);
 			path = CamOPhile;
 			sourceTree = "<group>";
@@ -125,6 +145,29 @@
 			path = CamOPhileUITests;
 			sourceTree = "<group>";
 		};
+		9BFBDE225A92AEA34FAEC3CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB07C3B414012509F0A1CE35 /* Pods-CamOPhile.debug.xcconfig */,
+				E1C34EFDE7F09FD9E224AA2D /* Pods-CamOPhile.release.xcconfig */,
+				E075B8888B0AB9BD0A75DF40 /* Pods-CamOPhileTests.debug.xcconfig */,
+				3DB87871FE47E07A42DD9781 /* Pods-CamOPhileTests.release.xcconfig */,
+				953FE73B32205649B7ED2668 /* Pods-CamOPhileUITests.debug.xcconfig */,
+				6927B7E860FFCE94414DF4C8 /* Pods-CamOPhileUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A88D0AF2063D16342D053C88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03ABC3DFFB466834B7DEEE07 /* Pods_CamOPhile.framework */,
+				D855009DFE9937C9D87B821F /* Pods_CamOPhileTests.framework */,
+				DAA187F8AE23AAA4B5DD0A54 /* Pods_CamOPhileUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8404B367216680EC00452A65 /* Build configuration list for PBXNativeTarget "CamOPhile" */;
 			buildPhases = (
+				67EE659C8063BB6ADE02F6C5 /* [CP] Check Pods Manifest.lock */,
 				8404B33B216680E900452A65 /* Sources */,
 				8404B33C216680E900452A65 /* Frameworks */,
 				8404B33D216680E900452A65 /* Resources */,
+				F7C9285BDF0588B68BC6E240 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8404B36A216680EC00452A65 /* Build configuration list for PBXNativeTarget "CamOPhileTests" */;
 			buildPhases = (
+				0BAFA01C76C2AC49126D4C3F /* [CP] Check Pods Manifest.lock */,
 				8404B34F216680EC00452A65 /* Sources */,
 				8404B350216680EC00452A65 /* Frameworks */,
 				8404B351216680EC00452A65 /* Resources */,
@@ -167,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8404B36D216680EC00452A65 /* Build configuration list for PBXNativeTarget "CamOPhileUITests" */;
 			buildPhases = (
+				CA174A03F57F34827A1876D6 /* [CP] Check Pods Manifest.lock */,
 				8404B35A216680EC00452A65 /* Sources */,
 				8404B35B216680EC00452A65 /* Frameworks */,
 				8404B35C216680EC00452A65 /* Resources */,
@@ -231,6 +278,7 @@
 			files = (
 				8404B34D216680EC00452A65 /* LaunchScreen.storyboard in Resources */,
 				8404B34A216680EC00452A65 /* Assets.xcassets in Resources */,
+				8404B3752166898600452A65 /* GoogleService-Info.plist in Resources */,
 				8404B348216680E900452A65 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +298,107 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BAFA01C76C2AC49126D4C3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CamOPhileTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67EE659C8063BB6ADE02F6C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CamOPhile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA174A03F57F34827A1876D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CamOPhileUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7C9285BDF0588B68BC6E240 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CamOPhile/Pods-CamOPhile-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CamOPhile/Pods-CamOPhile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8404B33B216680E900452A65 /* Sources */ = {
@@ -430,6 +579,7 @@
 		};
 		8404B368216680EC00452A65 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB07C3B414012509F0A1CE35 /* Pods-CamOPhile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +597,7 @@
 		};
 		8404B369216680EC00452A65 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1C34EFDE7F09FD9E224AA2D /* Pods-CamOPhile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +615,7 @@
 		};
 		8404B36B216680EC00452A65 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E075B8888B0AB9BD0A75DF40 /* Pods-CamOPhileTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +636,7 @@
 		};
 		8404B36C216680EC00452A65 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DB87871FE47E07A42DD9781 /* Pods-CamOPhileTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +657,7 @@
 		};
 		8404B36E216680EC00452A65 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 953FE73B32205649B7ED2668 /* Pods-CamOPhileUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +677,7 @@
 		};
 		8404B36F216680EC00452A65 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6927B7E860FFCE94414DF4C8 /* Pods-CamOPhileUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
