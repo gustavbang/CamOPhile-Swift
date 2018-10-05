@@ -66,8 +66,9 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             return
         }
         
-        let uploadImageRef = imageReference.child("hej")
+        let uploadImageRef = imageReference.child("hej2")
         
+        //laver en task
         let uploadTask = uploadImageRef.putData(imageData, metadata: nil) { (metadata, error) in
             print(metadata ?? "NO METADATA")
             print(error ?? "NO ERROR")
@@ -76,6 +77,21 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         uploadTask.resume()
     }
     @IBAction func onDownloadPressed(_ sender: Any) {
+        let downloadImageRef = imageReference.child("hej")
+        //laver en task, 1024*1024*6 = 6 mbit
+        let downloadTask = downloadImageRef.getData(maxSize: 1024*1024*6) { (data, error) in
+            if let data = data {
+                //behøver ikke lave guard let her fordi images er optional som default
+                //bruger vores data som data
+                let image = UIImage(data: data)
+                //for at convertere data som vi downloader ind i billedet
+                //så sæt image
+                self.downloadImage.image = image
+            }
+            print(error ?? "NO ERROR")
+        }
+        
+        downloadTask.resume()
     }
 }
 
