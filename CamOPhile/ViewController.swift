@@ -7,13 +7,20 @@
 //
 
 import UIKit
+import FirebaseStorage
 
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
     @IBOutlet weak var takePic: UIButton!
     @IBOutlet weak var pickFromAlbum: UIButton!
-    @IBOutlet weak var imageView: UIImageView!
-
+    
+    //tekstfelt 1
+    @IBOutlet weak var uploadImage: UIImageView!
+    //tekstfelt 2
+    @IBOutlet weak var downloadImage: UIImageView!
+    
+    //filnavn til billede som skal uploades
+    let filename = "earth.jpg"
     
     var imagePicker = UIImagePickerController()
     
@@ -41,8 +48,34 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         print("Returned from imagepicking")
         let image = info[UIImagePickerController.InfoKey.editedImage] as? UIImage
-        imageView.image = image
+        uploadImage.image = image
         imagePicker.dismiss(animated: true, completion: nil)
+    }
+    
+    //alt hernede er storage
+    var imageReference: StorageReference {
+        return Storage.storage().reference().child("images")
+    }
+    
+    @IBAction func onUploadPressed(_ sender: Any) {
+        guard let image = uploadImage.image else {
+            return
+        }
+        
+        guard let imageData = image.jpegData(compressionQuality: 1) else {
+            return
+        }
+        
+        let uploadImageRef = imageReference.child("hej")
+        
+        let uploadTask = uploadImageRef.putData(imageData, metadata: nil) { (metadata, error) in
+            print(metadata ?? "NO METADATA")
+            print(error ?? "NO ERROR")
+        }
+        
+        uploadTask.resume()
+    }
+    @IBAction func onDownloadPressed(_ sender: Any) {
     }
 }
 
