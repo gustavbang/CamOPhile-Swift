@@ -8,36 +8,25 @@
 
 import UIKit
 import FirebaseStorage
+import FirebaseDatabase
 
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    
+    var ref: DatabaseReference!
 
-    @IBOutlet weak var takePic: UIButton!
     @IBOutlet weak var pickFromAlbum: UIButton!
-    
-    //tekstfelt 1
     @IBOutlet weak var uploadImage: UIImageView!
-    //tekstfelt 2
-    @IBOutlet weak var downloadImage: UIImageView!
     
-    //filnavn til billede som skal uploades
-    let filename = "earth.jpg"
+    @IBOutlet weak var uploadBtn: UIButton!
     
     var imagePicker = UIImagePickerController()
     
-    
     override func viewDidLoad() {
-        takePic.layer.cornerRadius = 10
-        pickFromAlbum.layer.cornerRadius = 10
+        setCornerRadius()
         super.viewDidLoad()
-        
         imagePicker.delegate = self
         imagePicker.allowsEditing = true
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    @IBAction func takeAPicture(_ sender: Any) {
-        imagePicker.sourceType = .camera
-        present(imagePicker, animated: true, completion: nil)
+        
     }
     
     @IBAction func pickFromAlbum(_ sender: Any) {
@@ -52,10 +41,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         imagePicker.dismiss(animated: true, completion: nil)
     }
     
-    //alt hernede er storage
-    var imageReference: StorageReference {
-        return Storage.storage().reference().child("images")
-    }
+  
     
     @IBAction func onUploadPressed(_ sender: Any) {
         guard let image = uploadImage.image else {
@@ -66,32 +52,75 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             return
         }
         
-        let uploadImageRef = imageReference.child("hej2")
+        
+        //unique id
+        let imageName = NSUUID.init()
+        
+        let storageRef = Storage.storage().reference().child("\(imageName)")
+
+        //til at få metadata
+        let meta = StorageMetadata()
+        meta.contentType = "image/png"
         
         //laver en task
-        let uploadTask = uploadImageRef.putData(imageData, metadata: nil) { (metadata, error) in
+        let uploadTask = storageRef.putData(imageData, metadata: meta) { (metadata, error) in
+            
+            if error != nil {
+                print(error)
+                return
+            }
+            
+            
+            metadata?.storageReference?.downloadURL(completion: { (url, error) in
+                if (error == nil) {
+                    if let downloadUrl = url {
+                        // Make you download string
+                        let imageUrl = downloadUrl.absoluteString
+                        
+                        let values = ["profileImageUrl" : imageUrl]
+
+                        self.registerUserIntoDatabase(values: values)
+
+                    }
+                } else {
+                    print("fail")
+                    // Do something if error
+                }
+            })
+
+            
             print(metadata ?? "NO METADATA")
             print(error ?? "NO ERROR")
         }
         
         uploadTask.resume()
-    }
-    @IBAction func onDownloadPressed(_ sender: Any) {
-        let downloadImageRef = imageReference.child("hej")
-        //laver en task, 1024*1024*6 = 6 mbit
-        let downloadTask = downloadImageRef.getData(maxSize: 1024*1024*6) { (data, error) in
-            if let data = data {
-                //behøver ikke lave guard let her fordi images er optional som default
-                //bruger vores data som data
-                let image = UIImage(data: data)
-                //for at convertere data som vi downloader ind i billedet
-                //så sæt image
-                self.downloadImage.image = image
-            }
-            print(error ?? "NO ERROR")
-        }
         
-        downloadTask.resume()
     }
+    
+    
+    private func registerUserIntoDatabase(values : [String: String]) {
+        let ref = Database.database().reference()
+        let usersReference = ref.child("image")
+        usersReference.updateChildValues(values, withCompletionBlock: {
+            (err, ref) in
+            
+            if err != nil {
+                print(err)
+                return
+            }
+            self.dismiss(animated: true, completion: nil)
+        })
+    }
+   
+    
+    func setCornerRadius() {
+        pickFromAlbum.layer.cornerRadius = 15
+        uploadImage.layer.cornerRadius = 15
+        uploadBtn.layer.cornerRadius = 15
+        
+    }
+    
+    
+    
 }
 

@@ -15,6 +15,8 @@
 		8404B358216680EC00452A65 /* CamOPhileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8404B357216680EC00452A65 /* CamOPhileTests.swift */; };
 		8404B363216680EC00452A65 /* CamOPhileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8404B362216680EC00452A65 /* CamOPhileUITests.swift */; };
 		8404B3752166898600452A65 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8404B3742166898600452A65 /* GoogleService-Info.plist */; };
+		84BA8BC12170B44200EE7347 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA8BC02170B44200EE7347 /* ViewController2.swift */; };
+		84BA8BC32174A2D500EE7347 /* StartScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA8BC22174A2D500EE7347 /* StartScreenController.swift */; };
 		91F8B3AF48E9D6E8521F1BE3 /* Pods_CamOPhile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03ABC3DFFB466834B7DEEE07 /* Pods_CamOPhile.framework */; };
 		BE65033B971F40AFA13F7288 /* Pods_CamOPhileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA187F8AE23AAA4B5DD0A54 /* Pods_CamOPhileUITests.framework */; };
 		D520587F0DECEE1310F9D255 /* Pods_CamOPhileTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D855009DFE9937C9D87B821F /* Pods_CamOPhileTests.framework */; };
@@ -55,6 +57,8 @@
 		8404B362216680EC00452A65 /* CamOPhileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamOPhileUITests.swift; sourceTree = "<group>"; };
 		8404B364216680EC00452A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8404B3742166898600452A65 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		84BA8BC02170B44200EE7347 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		84BA8BC22174A2D500EE7347 /* StartScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenController.swift; sourceTree = "<group>"; };
 		953FE73B32205649B7ED2668 /* Pods-CamOPhileUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CamOPhileUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CamOPhileUITests/Pods-CamOPhileUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB07C3B414012509F0A1CE35 /* Pods-CamOPhile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CamOPhile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CamOPhile/Pods-CamOPhile.debug.xcconfig"; sourceTree = "<group>"; };
 		D855009DFE9937C9D87B821F /* Pods_CamOPhileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CamOPhileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +127,8 @@
 				8404B34B216680EC00452A65 /* LaunchScreen.storyboard */,
 				8404B34E216680EC00452A65 /* Info.plist */,
 				8404B3742166898600452A65 /* GoogleService-Info.plist */,
+				84BA8BC02170B44200EE7347 /* ViewController2.swift */,
+				84BA8BC22174A2D500EE7347 /* StartScreenController.swift */,
 			);
 			path = CamOPhile;
 			sourceTree = "<group>";
@@ -407,8 +413,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84BA8BC32174A2D500EE7347 /* StartScreenController.swift in Sources */,
 				8404B345216680E900452A65 /* ViewController.swift in Sources */,
 				8404B343216680E900452A65 /* AppDelegate.swift in Sources */,
+				84BA8BC12170B44200EE7347 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
